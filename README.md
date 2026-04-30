@@ -7,6 +7,7 @@ Features
 • Visual Reports: Orders by Date, Top Products, Top Locations, Payment Method Distribution, Discount Usage, Vendor Sales
 • Export charts as PNG and PDF
 • Clean and scrollable UI dashboard
+
 Tech Stack
 • Python 3.8+
 • Tkinter (GUI)
@@ -37,6 +38,7 @@ project/
 │── requirements.txt
 │── setup.sh
 │── setup.bat
+
 How to Use
 • Launch the app
 • Click "Upload CSV"
@@ -44,6 +46,7 @@ How to Use
 • View KPI metrics
 • Explore charts
 • Export charts as PNG or PDF
+
 Expected CSV Columns
 • Name (Order ID)
 • Created at (Order Date)
@@ -54,9 +57,11 @@ Expected CSV Columns
 • Payment Method
 • Discount Code
 • Vendor
+
 Requirements
 pandas>=1.5.0
 matplotlib>=3.7.0
+
 Setup Scripts
 setup.sh:
 #!/bin/bash
@@ -73,9 +78,11 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 python main.py
 pause
+
 Troubleshooting
 • Install tkinter if missing (Linux: sudo apt-get install python3-tk)
 • Ensure CSV column names match expected format
 • Large datasets may take time to render charts
+
 License
 This project is open-source and free to use.
